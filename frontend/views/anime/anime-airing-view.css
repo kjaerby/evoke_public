@@ -1,0 +1,47 @@
+.animes-airing-view {
+  display: block;
+  padding: 1em;
+}
+
+.anime-tile-airing-view {
+  height: 280px !important;
+  min-height: 280px !important;
+  max-height: 280px !important;
+}
+
+.anime-tile-airing-view > p {
+  margin-bottom: 0px !important;
+}
+
+.anime-tile-airing-view > p {
+  margin-top: 5px !important;
+  margin-bottom: 6px !important;
+}
+
+@media (max-width: 500px) {
+  .animes-airing-view {
+    padding: 0px;
+  }
+
+  .animes-airing-view > vaadin-vertical-layout {
+    width: 100vw !important;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .animes-airing-view > vaadin-vertical-layout > iron-list {
+    width: 100vw !important;
+  }
+
+  .animes-airing-view > label {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .animes-airing-view > vaadin-vertical-layout > label {
+    display: block;
+    text-align: center;
+    width: 100vw;
+  }
+}

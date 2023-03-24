@@ -1,0 +1,50 @@
+.home-view {
+  display: block;
+}
+
+.news-item {
+  transition: box-shadow 0.3s;
+  min-width: 90%;
+  max-width: 90%;
+
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: auto;
+  margin-top: 25px;
+
+  background-color: rgb(57, 75, 97);
+  color: rgb(245, 249, 255) !important;
+
+  padding: 10px;
+}
+
+.news-item > img {
+  height: 200px;
+  width: 130px;
+  object-fit: cover;
+  float: left;
+}
+
+.news-item > vaadin-vertical-layout > h2 {
+  color: rgb(245, 249, 255);
+  margin-left: 10px;
+  float: left;
+  width: 90%;
+}
+
+.news-item > vaadin-vertical-layout > p {
+  margin-left: 10px;
+  float: left;
+}
+
+@media (max-width: 500px) {
+  .home-view {
+    padding: 0px;
+  }
+
+  .home-view > label {
+    display: block;
+    text-align: center;
+  }
+}

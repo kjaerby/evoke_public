@@ -1,0 +1,27 @@
+.random-view {
+  display: block;
+  padding: 1em;
+}
+
+@media (max-width: 500px) {
+  .random-view {
+    padding: 0px;
+  }
+
+  .random-view > div > vaadin-button {
+    margin: auto;
+    width: 80%;
+    height: 5vh;
+  }
+
+  .random-view > vaadin-vertical-layout {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .random-view > vaadin-vertical-layout > iron-list {
+    width: 100vw;
+    overflow: auto;
+    max-height: 83vh;
+  }
+}
